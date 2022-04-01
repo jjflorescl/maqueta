@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Dashboard - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/Bootstrap-4-Calendar-No-Custom-Code.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-tagsinput.css">
+    <link rel="stylesheet" href="assets/css/dropdown-search-bs4.css">
+    <link rel="stylesheet" href="assets/css/especiales.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/suneditor@latest/dist/css/suneditor.min.css">
+    <link rel="stylesheet" href="assets/css/select2.css">
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <nav class="navbar navbar-light align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0" id="sidebar_nav">
+            <div class="container-fluid d-flex flex-column p-0"><a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#"><img src="assets/img/urbenic-logo%20(1).png">
+                    <div class="sidebar-brand-icon rotate-n-15"></div>
+                    <div class="sidebar-brand-text mx-3"><span style="color: #00497b;">URBENIC</span></div>
+                </a>
+                <hr class="sidebar-divider my-0">
+                <ul class="navbar-nav text-light table-responsive" id="accordionSidebar-1">
+                    <li class="nav-item"><a class="nav-link" href="publicaciones.html"><img src="assets/img/publication.svg" style="width: 30px;height: 30px;"><span>&nbsp; &nbsp;</span><span class="etiqueta" style="color: #00497b;font-weight: bold;">Publicaciones</span></a></li>
+                    <li class="nav-item"><a class="nav-link active"><img src="assets/img/auction.svg" style="width: 30px;height: 30px;"><span>&nbsp; &nbsp;</span><span class="etiqueta" style="color: rgb(0,73,123);font-weight: bold;">Subastas</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="table.html" data-bs-target="#offcanvas-contactos-1" data-bs-toggle="offcanvas"><img src="assets/img/directory.svg" style="width: 30px;height: 30px;"><span>&nbsp; &nbsp;</span><span class="etiqueta" style="color: rgb(0,73,123);font-weight: bold;">Directorio</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="calendario.html"><img src="assets/img/calendar.svg" style="width: 30px;height: 30px;"><span>&nbsp; &nbsp;</span><span class="etiqueta" style="color: rgb(0,73,123);font-weight: bold;">Calendario</span></a></li>
+                    <li class="nav-item"><a class="nav-link active"><img src="assets/img/task.svg" style="width: 30px;height: 30px;"><span>&nbsp; &nbsp;</span><span class="etiqueta" style="color: rgb(0,73,123);font-weight: bold;">Tareas</span></a></li>
+                    <li class="nav-item"><a class="nav-link active"><img src="assets/img/iconMeet.svg" style="transform: scale(1);width: 30px;height: 30px;"><span>&nbsp; &nbsp;</span><span class="etiqueta" style="color: rgb(0,73,123);font-weight: bold;">Meet</span></a></li>
+                    <li class="nav-item"><a class="nav-link active"><img src="assets/img/store.svg" style="width: 30px;height: 30px;"><span>&nbsp; &nbsp;</span><span class="etiqueta" style="color: #00497b;font-weight: bold;">Tiendita</span></a></li>
+                </ul>
+                <div class="text-center d-none d-md-inline"></div>
+                <div class="text-center d-none d-md-inline"><button class="btn border rounded rounded border-0" id="sidebarToggle" type="button" style="color: var(--bs-blue);background: #00497b;border-radius: 12px;border-width: 1px;"></button></div>
+            </div>
+        </nav>
+        <div class="d-block flex-column" id="content-wrapper">
+            <div id="content" style="--bs-body-bg: #00497B;border-radius: 8;">
+                <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top" style="background: var(--bs-white);">
+                    <div class="container-fluid">
+                        <form class="d-none d-sm-inline-block me-auto ms-md-3 my-2 my-md-0 mw-100 navbar-search" style="width: 400px;">
+                            <div class="input-group" style="width: 500px;"><input class="bg-light form-control autocomplete" type="text" placeholder="¿ Que quieres encontrar hoy ?" style="border-radius: 5px 0px 0px 5px;border-width: 0px;border-style: none;border-left-style: none;background: rgb(248, 249, 252);"><button class="btn" type="button" style="background: #f8f9fc;border-left-style: none;border-left-color: var(--bs-white);border-radius: 0px 5px 5px 0px;"><i class="fa fa-search" style="color: rgb(133, 135, 150);"></i></button><button class="btn btn-primary py-0 icono" type="button" style="background: var(--bs-white);border-style: none;font-size: 20px;transform: translate(9px);"><i class="fas fa-map-marker-alt iconoHeader" style="font-size: 20px;border-style: none;color: var(--bs-blue);"></i></button><button class="btn btn-primary py-0" type="button" style="background: var(--bs-white);border-style: none;font-size: 20px;transform: translate(9px);"><i class="fas fa-history iconoHeader" style="color: #00497b;font-size: 20px;border-style: none;"></i></button><button class="btn btn-primary py-0" type="button" style="background: var(--bs-white);border-style: none;transform: translate(9px);"><i class="fas fa-heart iconoHeader" style="color: #00497b;font-size: 20px;border-style: none;"></i></button><button class="btn btn-primary py-0" type="button" style="background: var(--bs-white);border-style: none;transform: translate(9px);"><i class="far fa-save iconoHeader" style="color: #00497b;font-size: 20px;border-style: none;"></i></button></div>
+                        </form>
+                        <ul class="navbar-nav flex-nowrap ms-auto">
+                            <li class="nav-item dropdown d-sm-none no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><i class="fas fa-th-list"></i></a>
+                                <div class="dropdown-menu dropdown-menu-end p-3 animated--grow-in" aria-labelledby="searchDropdown">
+                                    <div>
+                                        <div class="input-group" style="width: auto;padding: 5px;"><input class="bg-light form-control autocomplete" type="text" placeholder="¿ Que quieres encontrar hoy ?" style="border-radius: 12px 0px 0px 12px;border-width: 0px;border-style: none;border-left-style: none;background: rgb(248, 249, 252);width: auto;padding: 5px;"><button class="btn" type="button" style="background: #f8f9fc;border-left-style: none;border-left-color: var(--bs-white);border-radius: 0px 12px 12px 0px;"><i class="fa fa-search" style="color: rgb(133, 135, 150);"></i></button></div>
+                                    </div>
+                                    <div><button class="btn btn-primary py-0" type="button" style="background: var(--bs-white);border-style: none;font-size: 20px;transform: translate(9px);"><i class="fas fa-map-marker-alt iconoHeader" style="font-size: 20px;border-style: none;color: var(--bs-blue);"></i></button><button class="btn btn-primary py-0" type="button" style="background: var(--bs-white);border-style: none;transform: translate(9px);"><i class="fas fa-heart iconoHeader" style="color: #00497b;font-size: 20px;border-style: none;"></i></button><button class="btn btn-primary py-0" type="button" style="background: var(--bs-white);border-style: none;font-size: 20px;transform: translate(9px);"><i class="fas fa-history iconoHeader" style="color: #00497b;font-size: 20px;border-style: none;"></i></button><button class="btn btn-primary py-0" type="button" style="background: var(--bs-white);border-style: none;transform: translate(9px);"><i class="far fa-save iconoHeader" style="color: #00497b;font-size: 20px;border-style: none;"></i></button></div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown no-arrow mx-1">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="badge bg-danger badge-counter" style="width: 35px;">99+</span><i class="fas fa-bell fa-fw" style="color: var(--bs-blue);font-size: 20px;"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-end dropdown-list animated--grow-in">
+                                        <h6 class="dropdown-header">alerts center</h6><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="me-3">
+                                                <div class="bg-primary icon-circle"><i class="fas fa-file-alt text-white"></i></div>
+                                            </div>
+                                            <div><span class="small text-gray-500">December 12, 2019</span>
+                                                <p>A new monthly report is ready to download!</p>
+                                            </div>
+                                        </a><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="me-3">
+                                                <div class="bg-success icon-circle"><i class="fas fa-donate text-white"></i></div>
+                                            </div>
+                                            <div><span class="small text-gray-500">December 7, 2019</span>
+                                                <p>$290.29 has been deposited into your account!</p>
+                                            </div>
+                                        </a><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="me-3">
+                                                <div class="bg-warning icon-circle"><i class="fas fa-exclamation-triangle text-white"></i></div>
+                                            </div>
+                                            <div><span class="small text-gray-500">December 2, 2019</span>
+                                                <p>Spending Alert: We've noticed unusually high spending for your account.</p>
+                                            </div>
+                                        </a><a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown no-arrow mx-1">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"></a>
+                                    <div class="dropdown-menu dropdown-menu-end dropdown-list animated--grow-in">
+                                        <h6 class="dropdown-header">alerts center</h6><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="dropdown-list-image me-3"><img class="rounded-circle" src="avatars/avatar4.jpeg">
+                                                <div class="bg-success status-indicator"></div>
+                                            </div>
+                                            <div class="fw-bold">
+                                                <div class="text-truncate"><span>Hi there! I am wondering if you can help me with a problem I've been having.</span></div>
+                                                <p class="small text-gray-500 mb-0">Emily Fowler - 58m</p>
+                                            </div>
+                                        </a><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="dropdown-list-image me-3"><img class="rounded-circle" src="avatars/avatar2.jpeg">
+                                                <div class="status-indicator"></div>
+                                            </div>
+                                            <div class="fw-bold">
+                                                <div class="text-truncate"><span>I have the photos that you ordered last month!</span></div>
+                                                <p class="small text-gray-500 mb-0">Jae Chun - 1d</p>
+                                            </div>
+                                        </a><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="dropdown-list-image me-3"><img class="rounded-circle" src="avatars/avatar3.jpeg">
+                                                <div class="bg-warning status-indicator"></div>
+                                            </div>
+                                            <div class="fw-bold">
+                                                <div class="text-truncate"><span>Last month's report looks great, I am very happy with the progress so far, keep up the good work!</span></div>
+                                                <p class="small text-gray-500 mb-0">Morgan Alvarez - 2d</p>
+                                            </div>
+                                        </a><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="dropdown-list-image me-3"><img class="rounded-circle" src="avatars/avatar5.jpeg">
+                                                <div class="bg-success status-indicator"></div>
+                                            </div>
+                                            <div class="fw-bold">
+                                                <div class="text-truncate"><span>Am I a good boy? The reason I ask is because someone told me that people say this to all dogs, even if they aren't good...</span></div>
+                                                <p class="small text-gray-500 mb-0">Chicken the Dog · 2w</p>
+                                            </div>
+                                        </a><a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                                    </div>
+                                </div>
+                                <div class="shadow dropdown-list dropdown-menu dropdown-menu-end" aria-labelledby="alertsDropdown"></div>
+                            </li>
+                            <div class="d-none d-sm-block topbar-divider"></div>
+                            <li class="nav-item dropdown no-arrow">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="d-none d-lg-inline me-2 text-gray-600 small">Javier Flores</span><img class="border rounded-circle img-profile" src="assets/img/avatars/perfil%202.jpg"></a>
+                                    <div class="dropdown-menu shadow dropdown-menu-end animated--grow-in" style="width: auto;height: auto;"><a class="dropdown-item" href="#"><i class="fas fa-user fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Perfíl</a><a class="dropdown-item" href="#"><i class="fas fa-cogs fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Configuración</a>
+                                        <div class="dropdown-divider"></div><a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Salir</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-start aria-labelledby=&quot;offcanvasTopLabel&quot;" tabindex="-1" data-bs-scroll="true" data-bs-backdrop="false" id="offcanvas-contactos-1" style="width: 100%;max-width: 600px;background: #DFE4EC;border-radius: 12px;">
+            <div class="offcanvas-header" style="font-size: 12px;">
+                <h5 class="offcanvas-title d-xxl-flex titulos" style="color: var(--bs-blue);font-weight: bold;">Directorio</h5><button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div style="border-bottom: 1px solid var(--bs-gray-400);padding: 0 0 5px 0;"><button class="btn btn-primary icono" type="button" data-bs-target="#offcanvas-contactos-1" data-bs-toggle="offcanvas"><i class="fa fa-search" style="color: rgb(133, 135, 150);"></i></button><button class="btn btn-primary icono" type="button" data-bs-target="#offcanvas-contactos-2" data-bs-toggle="offcanvas" title="Contacto"><i class="fa fa-user-plus"></i></button><button class="btn btn-primary icono" type="button" data-bs-target="#offcanvas-contactos-3" data-bs-toggle="offcanvas"><i class="fa fa-users"></i></button><button class="btn btn-primary icono" type="button" data-bs-target="#modal-1" data-bs-toggle=""><i class="fas fa-upload" data-bs-target="#modal-1" data-bs-toggle="modal"></i></button></div>
+                <div class="row">
+                    <div class="col padMar">
+                        <div class="input-group" style="padding: 2px;bottom: -7px;margin: 0 0 20px 0;"><input class="form-control autocomplete" type="text" placeholder="Busqueda de Contactos" style="border-radius: 12px 0px 0px 12px;border-width: 0px;border-style: none;border-left-style: none;"><button class="btn" type="button" style="background: var(--bs-white);border-left-style: none;border-left-color: var(--bs-white);"><i class="fa fa-search"></i></button></div><div class="row" style="padding:2px;solid var(--bs-gray-400);">
+   
+    		<ul class="abcdario">
+    			<li><a href="#" class="filtro-letra filtro-letra-active">Todos</a></li>
+    			<li><a href="#" class="filtro-letra">A</a></li>
+    			<li><a href="#" class="filtro-letra">B</a></li>
+    			<li><a href="#" class="filtro-letra">C</a></li>
+    			<li><a href="#" class="filtro-letra">D</a></li>
+    			<li><a href="#" class="filtro-letra">E</a></li>
+    			<li><a href="#" class="filtro-letra">F</a></li>
+    			<li><a href="#" class="filtro-letra">G</a></li>
+    			<li><a href="#" class="filtro-letra">H</a></li>
+    			<li><a href="#" class="filtro-letra">I</a></li>
+    			<li><a href="#" class="filtro-letra">J</a></li>
+    			<li><a href="#" class="filtro-letra">K</a></li>
+    			<li><a href="#" class="filtro-letra">L</a></li>
+    			<li><a href="#" class="filtro-letra">M</a></li>
+    			<li><a href="#" class="filtro-letra">N</a></li>
+    			<li><a href="#" class="filtro-letra">O</a></li>
+    			<li><a href="#" class="filtro-letra">P</a></li>
+    			<li><a href="#" class="filtro-letra">Q</a></li>
+    			<li><a href="#" class="filtro-letra">R</a></li>
+    			<li><a href="#" class="filtro-letra">S</a></li>
+    			<li><a href="#" class="filtro-letra">T</a></li>
+    			<li><a href="#" class="filtro-letra">U</a></li>
+    			<li><a href="#" class="filtro-letra">V</a></li>
+    			<li><a href="#" class="filtro-letra">W</a></li>
+    			<li><a href="#" class="filtro-letra">X</a></li>
+    			<li><a href="#" class="filtro-letra">Y</a></li>
+    			<li><a href="#" class="filtro-letra">Z</a></li>
+    		</ul>
+
+</div>
+                    </div>
+                </div>
+                <div class="row flex-row" style="padding-left: 14px;padding-right: 15px;">
+                    <div class="col col-md-6 position-relative contact-card">
+                        <div class="card">
+                            <div class="card-body d-flex align-items-center"><img class="rounded-circle border border-primary" style="width: 70px;height: 70px;" src="assets/img/avatars/perfil%202.jpg"><div class="dropdown"><button class="btn btn-secondary dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown" style="background: var(--bs-body-bg);color: var(--bs-blue);font-weight: bold;border-style: none;">Nombre </button>
+    <div class="dropdown-menu" ><a class="link-primary dropdown-item" href="#">Iniciar Conversación</a><a class="link-primary dropdown-item" href="#">Eliminar</a><a class="link-primary dropdown-item" href="#">Editar</a><a class="link-primary dropdown-item" href="#">Imprimir</a></div>
+</div></div>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 position-relative contact-card">
+                        <div class="card">
+                            <div class="card-body d-flex align-items-center" style="padding: 15px;padding-left: 16px;"><img class="rounded-circle border border-primary" style="width: 70px;height: 70px;" src="assets/img/avatars/john_doe_2.jpg"><div class="dropdown"><button class="btn btn-secondary dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown" style="background: var(--bs-body-bg);color: var(--bs-blue);font-weight: bold;border-style: none;">Nombre </button>
+    <div class="dropdown-menu" ><a class="link-primary dropdown-item" href="#">Iniciar Conversación</a><a class="link-primary dropdown-item" href="#">Eliminar</a><a class="link-primary dropdown-item" href="#">Editar</a><a class="link-primary dropdown-item" href="#">Imprimir</a></div>
+</div></div>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 position-relative contact-card">
+                        <div class="card">
+                            <div class="card-body d-flex align-items-center"><img class="rounded-circle border border-primary" style="width: 70px;height: 70px;" src="assets/img/avatars/john_doe_2.jpg"><div class="dropdown"><button class="btn btn-secondary dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown" style="background: var(--bs-body-bg);color: var(--bs-blue);font-weight: bold;border-style: none;">Nombre </button>
+    <div class="dropdown-menu" ><a class="link-primary dropdown-item" href="#">Iniciar Conversación</a><a class="link-primary dropdown-item" href="#">Eliminar</a><a class="link-primary dropdown-item" href="#">Editar</a><a class="link-primary dropdown-item" href="#">Imprimir</a></div>
+</div></div>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 position-relative contact-card">
+                        <div class="card">
+                            <div class="card-body d-flex align-items-center"><img class="rounded-circle border border-primary" style="width: 70px;height: 70px;" src="assets/img/avatars/john_doe_3.jpg"><div class="dropdown"><button class="btn btn-secondary dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown" style="background: var(--bs-body-bg);color: var(--bs-blue);font-weight: bold;border-style: none;">Nombre </button>
+    <div class="dropdown-menu"><a class="link-primary dropdown-item" href="#">Iniciar Conversación</a><a class="link-primary dropdown-item" href="#">Eliminar</a><a class="link-primary dropdown-item" href="#">Editar</a><a class="link-primary dropdown-item" href="#">Imprimir</a></div>
+</div></div>
+                            <div class="invisible position-absolute card" style="right: 0;top: 70%;padding: 10px;"><a class="d-block" href="#">Iniciar Conversación</a><a class="d-block" href="#">Eliminar</a><a class="d-block" href="#">Editar</a><a class="d-block" href="#">Imprimir</a></div>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 position-relative contact-card">
+                        <div class="card">
+                            <div class="card-body d-flex align-items-center"><img class="rounded-circle border border-primary" style="width: 70px;height: 70px;" src="assets/img/avatars/john_doe.jpg"><div class="dropdown"><button class="btn btn-secondary dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown" style="background: var(--bs-body-bg);color: var(--bs-blue);font-weight: bold;border-style: none;">Nombre </button>
+    <div class="dropdown-menu"><a class="link-primary dropdown-item" href="#">Iniciar Conversación</a><a class="link-primary dropdown-item" href="#">Eliminar</a><a class="link-primary dropdown-item" href="#">Editar</a><a class="link-primary dropdown-item" href="#">Imprimir</a></div>
+</div></div>
+                            <div class="invisible position-absolute card" style="right: 0;top: 70%;padding: 10px;"><a class="d-block" href="#">Iniciar Conversación</a><a class="d-block" href="#">Eliminar</a><a class="d-block" href="#">Editar</a><a class="d-block" href="#">Imprimir</a></div>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 position-relative contact-card">
+                        <div class="card">
+                            <div class="card-body d-flex align-items-center"><img class="rounded-circle border border-primary" style="width: 70px;height: 70px;" src="assets/img/avatars/perfil%202.jpg"><div class="dropdown"><button class="btn btn-secondary dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown" style="background: var(--bs-body-bg);color: var(--bs-blue);font-weight: bold;border-style: none;">Nombre </button>
+    <div class="dropdown-menu"><a class="link-primary dropdown-item" href="#">Iniciar Conversación</a><a class="link-primary dropdown-item" href="#">Eliminar</a><a class="link-primary dropdown-item" href="#">Editar</a><a class="link-primary dropdown-item" href="#">Imprimir</a></div>
+</div></div>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 position-relative contact-card">
+                        <div class="card">
+                            <div class="card-body d-flex align-items-center"><img class="rounded-circle border border-primary" style="width: 70px;height: 70px;" src="assets/img/avatars/janie_doe_4.jpg"><div class="dropdown"><button class="btn btn-secondary dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown" style="background: var(--bs-body-bg);color: var(--bs-blue);font-weight: bold;border-style: none;">Nombre </button>
+    <div class="dropdown-menu"><a class="link-primary dropdown-item" href="#">Iniciar Conversación</a><a class="link-primary dropdown-item" href="#">Eliminar</a><a class="link-primary dropdown-item" href="#">Editar</a><a class="link-primary dropdown-item" href="#">Imprimir</a></div>
+</div></div>
+                            <div class="invisible position-absolute card" style="right: 0;top: 70%;padding: 10px;"><a class="d-block" href="#">Iniciar Conversación</a><a class="d-block" href="#">Eliminar</a><a class="d-block" href="#">Editar</a><a class="d-block" href="#">Imprimir</a></div>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 position-relative contact-card">
+                        <div class="card">
+                            <div class="card-body d-flex align-items-center"><img class="rounded-circle border border-primary" style="width: 70px;height: 70px;" src="assets/img/avatars/janie_doe.jpg"><div class="dropdown"><button class="btn btn-secondary dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown" style="background: var(--bs-body-bg);color: var(--bs-blue);font-weight: bold;border-style: none;">Nombre </button>
+    <div class="dropdown-menu"><a class="link-primary dropdown-item" href="#">Iniciar Conversación</a><a class="link-primary dropdown-item" href="#">Eliminar</a><a class="link-primary dropdown-item" href="#">Editar</a><a class="link-primary dropdown-item" href="#">Imprimir</a></div>
+</div></div>
+                            <div class="invisible position-absolute card" style="right: 0;top: 70%;padding: 10px;"><a class="d-block" href="#">Iniciar Conversación</a><a class="d-block" href="#">Eliminar</a><a class="d-block" href="#">Editar</a><a class="d-block" href="#">Imprimir</a></div>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 position-relative contact-card">
+                        <div class="card">
+                            <div class="card-body d-flex align-items-center"><img class="rounded-circle border border-primary" style="width: 70px;height: 70px;" src="assets/img/avatars/mountain_bg.jpg"><div class="dropdown"><button class="btn btn-secondary dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown" style="background: var(--bs-body-bg);color: var(--bs-blue);font-weight: bold;border-style: none;">Nombre </button>
+    <div class="dropdown-menu"><a class="link-primary dropdown-item" href="#">Iniciar Conversación</a><a class="link-primary dropdown-item" href="#">Eliminar</a><a class="link-primary dropdown-item" href="#">Editar</a><a class="link-primary dropdown-item" href="#">Imprimir</a></div>
+</div></div>
+                            <div class="invisible position-absolute card" style="right: 0;top: 70%;padding: 10px;"><a class="d-block" href="#">Iniciar Conversación</a><a class="d-block" href="#">Eliminar</a><a class="d-block" href="#">Editar</a><a class="d-block" href="#">Imprimir</a></div>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 position-relative contact-card">
+                        <div class="card">
+                            <div class="card-body d-flex align-items-center"><img class="rounded-circle border border-primary" style="width: 70px;height: 70px;" src="john_doe_2.jpg"><div class="dropdown"><button class="btn dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown" style="background: var(--bs-body-bg);color: var(--bs-blue);font-weight: bold;border-style: none;">Nombre </button>
+    <div class="dropdown-menu"><a class="link-primary dropdown-item" href="#">Iniciar Conversación</a><a class="link-primary dropdown-item" href="#">Eliminar</a><a class="link-primary dropdown-item" href="#">Editar</a><a class="link-primary dropdown-item" href="#">Imprimir</a></div>
+</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-start aria-labelledby=&quot;offcanvasTopLabel&quot;" tabindex="-1" data-bs-scroll="true" data-bs-backdrop="false" id="offcanvas-contactos-2" style="width: 100%;max-width: 600px;background: #DFE4EC;border-radius: 12px;">
+            <div class="offcanvas-header border-primary shadow-none" style="border-style: none;font-size: 12px;">
+                <h5 class="offcanvas-title d-xxl-flex titulos" style="font-weight: bold;font-size: 18px;">Directorio crear contacto</h5><button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div style="border-bottom: 1px solid var(--bs-gray-400);padding: 0 0 5px 0;"><button class="btn btn-primary icono" type="button" data-bs-target="#offcanvas-1" data-bs-toggle="offcanvas"><i class="fa fa-search" style="color: rgb(133, 135, 150);"></i></button><button class="btn btn-primary icono" type="button" data-bs-target="#offcanvas-contactos-2" data-bs-toggle="offcanvas" title="Contacto"><i class="fa fa-user-plus"></i></button><button class="btn btn-primary icono" type="button" data-bs-target="#offcanvas-contactos-3" data-bs-toggle="offcanvas"><i class="fa fa-users"></i></button><button class="btn btn-primary icono" type="button" data-bs-target="#modal-1" data-bs-toggle=""><i class="fas fa-upload" data-bs-target="#modal-1" data-bs-toggle="modal"></i></button></div>
+                <div class="clearfix" style="height: 20px;"></div>
+                <div class="row">
+                    <div class="col col-6" style="padding: 10px;"><input type="text" placeholder="Nombres" style="width: 100%;"></div>
+                    <div class="col col-6" style="padding: 10px;"><input type="text" placeholder="Apellidos" style="width: 100%;"></div>
+                    <div class="col col-6" style="padding: 10px;"><input type="text" placeholder="Email" style="width: 100%;"></div>
+                    <div class="col col-6" style="padding: 10px;"><input type="text" placeholder="Teléfono móvil" style="width: 100%;"></div>
+                    <div class="col col-12" style="padding: 10px;"><input type="text" placeholder="Dirección" style="width: 100%;"></div>
+                    <div class="col col-12" style="padding: 10px;"><textarea style="width: 100%;" placeholder="Escriba  algo aquí de este contacto"></textarea></div>
+                    <div class="col text-center col-12" style="padding: 10px;"><button class="btn btn-primary btn-rounded btn-sm" type="submit" style="border-style: none;border-radius: 5px;font-size: 16px;">Guardar</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-start aria-labelledby=&quot;offcanvasTopLabel&quot;" tabindex="-1" data-bs-scroll="true" data-bs-backdrop="false" id="offcanvas-contactos-3" style="width: 100%;max-width: 600px;background: #DFE4EC;font-size: 12px;border-radius: 12px;">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title d-xxl-flex titulos" style="font-weight: bold;">Directorio&nbsp; crear grupo</h5><button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div style="border-bottom: 1px solid var(--bs-gray-400);padding: 0 0 5px 0;"><button class="btn btn-primary icono" type="button" data-bs-target="#offcanvas-1" data-bs-toggle="offcanvas"><i class="fa fa-search" style="color: rgb(133, 135, 150);"></i></button><button class="btn btn-primary icono" type="button" data-bs-target="#offcanvas-contactos-2" data-bs-toggle="offcanvas" title="Contacto"><i class="fa fa-user-plus"></i></button><button class="btn btn-primary icono" type="button" data-bs-target="#offcanvas-contactos-3" data-bs-toggle="offcanvas"><i class="fa fa-users"></i></button><button class="btn btn-primary icono" type="button" data-bs-target="#modal-1" data-bs-toggle=""><i class="fas fa-upload" data-bs-target="#modal-1" data-bs-toggle="modal"></i></button></div>
+                <div>
+                    <div class="row">
+                        <div class="col col-4"><img class="rounded-circle border border-primary" src="placeholder.png" style="width: 150px;height: 150px;"></div>
+                        <div class="col col-8"><input type="text" placeholder="Nombre del Grupo" style="width: 100%;">
+                            <div class="text-center d-xl-flex" style="margin: 20px 0;"><a href="#" style="color: #00497B;"><i class="fa fa-plus"></i>&nbsp;Agregar</a></div>
+                            <div class="d-xl-flex justify-content-xl-center"><button class="btn btn-primary" type="button" style="border-radius: 5px;font-size: 16px;">Guardar</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal-1" style="border-radius: 12px;">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header" style="font-size: 10px;color: var(--bs-blue);">
+                        <h4 class="modal-title" style="color: var(--bs-blue);font-size: 18px;font-weight: bold;">Importar contactos</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="field"><select class="form-select" style="font-size: 14px;border-radius: 5px;">
+                                    <option value="" selected="">Seleccione una cuenta para importar sus contactos</option>
+                                    <option value="1">Linkedin</option>
+                                    <option value="2">Gmail</option>
+                                    <option value="9">Hotmail</option>
+                                    <option value="4">Webmail</option>
+                                </select></div>
+                        </form>
+                    </div>
+                    <div class="modal-footer d-xl-flex justify-content-xl-center"><button class="btn btn-primary" type="button" style="border-radius: 5px;">Importar</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/suneditor@latest/dist/suneditor.min.js"></script>
+    <script src="assets/js/Suneditor-WYSIWYG-1.js"></script>
+    <script src="assets/js/Suneditor-WYSIWYG.js"></script>
+    <script src="assets/js/bootstrap-tagsinput.js"></script>
+    <script src="assets/js/dropdown-search-bs4.js"></script>
+    <script src="assets/js/mb.js"></script>
+    <script src="assets/js/select2-1.js"></script>
+    <script src="assets/js/select2-2.js"></script>
+    <script src="assets/js/select2-3.js"></script>
+    <script src="assets/js/select2-4.js"></script>
+    <script src="assets/js/select2-5.js"></script>
+    <script src="assets/js/select2-6.js"></script>
+    <script src="assets/js/select2.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
